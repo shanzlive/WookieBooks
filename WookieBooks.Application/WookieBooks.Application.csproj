@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <!--<TargetFramework>netstandard2.1</TargetFramework>-->
+	  <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="10.3.4" />
+    <PackageReference Include="MediatR" Version="9.0.0" />
+    <!--<PackageReference Include="SolrNet.Core" Version="1.0.19" />-->
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WookieBooks.Domain\WookieBooks.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WookieBooks.Api", "WookieBooks.Api\WookieBooks.Api.csproj", "{D2A921DA-8458-4BD6-A570-4F932D41F4C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WookieBooks.Application", "WookieBooks.Application\WookieBooks.Application.csproj", "{01077FDD-AB9D-45EE-9627-B5EDC0DC50EC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WookieBooks.Domain", "WookieBooks.Domain\WookieBooks.Domain.csproj", "{DB92759E-52F9-44B7-8B90-49A8B465727F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WookieBooks.InfraStructure", "WookieBooks.InfraStructure\WookieBooks.InfraStructure.csproj", "{ECC3DBCC-24E5-4BF9-B955-5F8E941BE8F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WookieBooks.Api.Test", "WookieBooks.Api.Test\WookieBooks.Api.Test.csproj", "{9A09A39E-63BB-4672-AE31-10BB0AEA7F43}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WookieBooks.Application.Test", "WookieBooks.Application.Test\WookieBooks.Application.Test.csproj", "{5FA3EB44-B455-4D82-B750-CDE6160EA7A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2A921DA-8458-4BD6-A570-4F932D41F4C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2A921DA-8458-4BD6-A570-4F932D41F4C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2A921DA-8458-4BD6-A570-4F932D41F4C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2A921DA-8458-4BD6-A570-4F932D41F4C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01077FDD-AB9D-45EE-9627-B5EDC0DC50EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01077FDD-AB9D-45EE-9627-B5EDC0DC50EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01077FDD-AB9D-45EE-9627-B5EDC0DC50EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01077FDD-AB9D-45EE-9627-B5EDC0DC50EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB92759E-52F9-44B7-8B90-49A8B465727F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB92759E-52F9-44B7-8B90-49A8B465727F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB92759E-52F9-44B7-8B90-49A8B465727F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB92759E-52F9-44B7-8B90-49A8B465727F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECC3DBCC-24E5-4BF9-B955-5F8E941BE8F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECC3DBCC-24E5-4BF9-B955-5F8E941BE8F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECC3DBCC-24E5-4BF9-B955-5F8E941BE8F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECC3DBCC-24E5-4BF9-B955-5F8E941BE8F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A09A39E-63BB-4672-AE31-10BB0AEA7F43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A09A39E-63BB-4672-AE31-10BB0AEA7F43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A09A39E-63BB-4672-AE31-10BB0AEA7F43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A09A39E-63BB-4672-AE31-10BB0AEA7F43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FA3EB44-B455-4D82-B750-CDE6160EA7A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FA3EB44-B455-4D82-B750-CDE6160EA7A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FA3EB44-B455-4D82-B750-CDE6160EA7A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FA3EB44-B455-4D82-B750-CDE6160EA7A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5AF5D8F-BB13-40BD-AC1B-AF166A34FDB7}
+	EndGlobalSection
+EndGlobal
