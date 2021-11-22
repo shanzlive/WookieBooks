@@ -20,10 +20,11 @@ namespace WookieBooks.Application.Commands.DeleteBook
 
         public async Task<Unit> Handle(DeleteBookCommand request, CancellationToken cancellationToken)
         {
+            // Check whether the id is valid 
             var result = await _bookRepository.GetByIdAsync(request.Id);
             if(result is null)
             {
-                throw new BookNotExistException("Book not exist");
+                throw new BookNotExistException("Book not found");
             }
             await _bookRepository.DeleteAsync(request.Id, cancellationToken);
             return Unit.Value;

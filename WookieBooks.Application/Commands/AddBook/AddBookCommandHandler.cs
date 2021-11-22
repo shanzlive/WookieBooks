@@ -19,6 +19,7 @@ namespace WookieBooks.Application.Commands.AddBook
         }
         public async Task<Unit> Handle(AddBookCommand request, CancellationToken cancellationToken)
         {
+            // Check whether a book exist with same author and title 
             var result = await _bookRepository.GetByTitleOrAuthorAsync(request.Title, request.Author);
             if (result.Count > 0)
             {

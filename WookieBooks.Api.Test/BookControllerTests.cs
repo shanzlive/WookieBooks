@@ -19,7 +19,7 @@ namespace WookieBooks.Api.Test
         private const string ValidTitle = "Hamlet";
         private const string ValidDescription = "The play by William Shakespeare";
         private const string ValidAuthor = "William Shakespeare";
-        private const string ValidCoverImage = "hamet.jpg";
+        private const string ValidCoverImage = "hamlet.jpg";
         private const decimal ValidPrice = 100;
         private readonly AddBookRequest _addBookValidRequest;
 

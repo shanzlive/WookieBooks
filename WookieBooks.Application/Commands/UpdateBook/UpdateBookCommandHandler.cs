@@ -21,6 +21,7 @@ namespace WookieBooks.Application.Commands.UpdateBook
 
         public async Task<Unit> Handle(UpdateBookCommand request, CancellationToken cancellationToken)
         {
+            // Check whether the id is valid 
             var result = await _bookRepository.GetByIdAsync(request.Id);
             if (result is null)
             {
