@@ -22,15 +22,6 @@ public sealed class ValidationBehavior<TRequest, TResponse> : IPipelineBehavior<
             .SelectMany(x => x.Errors)
             .Where(x => x != null)
             .ToList();
-            /*.GroupBy(
-                x => x.PropertyName,
-                x => x.ErrorMessage,
-                (propertyName, errorMessages) => new
-                {
-                    Key = propertyName,
-                    Values = errorMessages.Distinct().ToArray()
-                })
-            .ToDictionary(x => x.Key, x => x.Values);*/
         if (validationFailures.Any())
         {
             throw new ValidationException(validationFailures);
